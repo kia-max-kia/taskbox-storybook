@@ -31,6 +31,8 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
    </div>
   `,
 })
+
+// attr.aria-label is used in play interaction to fireEvent.click(canvas.getByLabelText(<attr.aria-label>)
 export class TaskComponent {
  @Input() task: Task;
 
